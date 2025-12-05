@@ -35,7 +35,7 @@ public/build/
 
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
+git clone https://github.com/CCAYCHOG/webpersonal
 cd tu-repo
 
 2️⃣ Instalar dependencias de PHP
@@ -90,10 +90,6 @@ Optimización con Vite
 
 Código organizado para escalabilidad
 
-📸 Capturas del Proyecto (Opcional)
-
-(Puedes agregar algunas imágenes aquí cuando quieras)
-
 🤝 Contribuciones
 
 Este es un proyecto personal, pero estoy abierto a ideas, mejoras o reportes de bugs mediante issues o pull requests.
@@ -115,6 +111,3 @@ Este proyecto está bajo la licencia MIT, lo cual permite su uso, distribución 
 ✨ Gracias por visitar este proyecto.
 Si te gusta, ¡no olvides dejar una estrella ⭐ en GitHub!
 ---
-
-# ¿Quieres que lo personalice con tu nombre, tus secciones reales, tu dominio y tus tecnologías exactas?  
-Lo puedo dejar a tu medida.
