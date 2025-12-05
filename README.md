@@ -1,59 +1,120 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🌐 Web Personal — Portafolio Profesional
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este es mi proyecto de **web personal**, desarrollado con **Laravel** y **Vite**, donde presento mis servicios, proyectos, experiencia y una breve información sobre mí.
 
-## About Laravel
+El objetivo de este sitio es contar con un lugar centralizado para mostrar quién soy, qué hago y cómo puedo ayudar a mis clientes o empleadores potenciales.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Tecnologías Utilizadas
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Laravel 10** — Framework backend
+- **Vite** — Compilación moderna de assets (CSS/JS)
+- **PHP 8+**
+- **MySQL / MariaDB** (opcional, dependiendo del contenido dinámico)
+- **TailwindCSS / Bootstrap** (según tu proyecto)
+- **JavaScript ES Modules**
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 📂 Estructura Principal del Proyecto
+/app
+/public
+/resources
+/routes
+/config
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Los assets front-end (CSS/JS) se manejan mediante **Vite** y se compilan dentro de:
 
-## Laravel Sponsors
+public/build/
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## ⚙️ Instalación y Configuración
 
-## Contributing
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/tuusuario/tu-repo.git
+cd tu-repo
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2️⃣ Instalar dependencias de PHP
+composer install
 
-## Code of Conduct
+3️⃣ Instalar dependencias de Node
+npm install
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4️⃣ Crear archivo .env
+cp .env.example .env
 
-## Security Vulnerabilities
+Configura la base de datos y APP_URL dentro del .env.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5️⃣ Generar key de Laravel
+php artisan key:generate
 
-## License
+6️⃣ Compilar assets
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Modo desarrollo:
+npm run dev
+
+Modo producción:
+npm run build
+
+🖥️ Despliegue en Producción
+
+Para entorno de producción:
+
+composer install --no-dev
+php artisan optimize
+npm run build
+
+Luego asegúrate de que:
+
+El contenido de /public se publique en el directorio público del servidor (public_html).
+
+El resto del proyecto esté fuera del alcance público por seguridad.
+
+index.php apunte correctamente a /vendor/autoload.php y /bootstrap/app.php.
+
+🧠 Características del Sitio
+
+Información personal y profesional
+
+Portafolio de proyectos
+
+Sección de contacto
+
+Diseño responsive
+
+Optimización con Vite
+
+Código organizado para escalabilidad
+
+📸 Capturas del Proyecto (Opcional)
+
+(Puedes agregar algunas imágenes aquí cuando quieras)
+
+🤝 Contribuciones
+
+Este es un proyecto personal, pero estoy abierto a ideas, mejoras o reportes de bugs mediante issues o pull requests.
+
+📬 Contacto
+
+Si deseas comunicarte conmigo, puedes contactarme vía:
+
+Email: ing@cesarcaycho.com
+
+Web: https://cesarcaycho.com
+
+LinkedIn: https://www.linkedin.com/in/juliocesarcaychogarcia/
+
+📝 Licencia
+
+Este proyecto está bajo la licencia MIT, lo cual permite su uso, distribución y modificación libremente.
+
+✨ Gracias por visitar este proyecto.
+Si te gusta, ¡no olvides dejar una estrella ⭐ en GitHub!
+---
+
+# ¿Quieres que lo personalice con tu nombre, tus secciones reales, tu dominio y tus tecnologías exactas?  
+Lo puedo dejar a tu medida.
